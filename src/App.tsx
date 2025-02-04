@@ -1,5 +1,6 @@
 import myPhoto from './assets/myphoto2-removebg-preview.png'
 import otusCert from './assets/otus_cert.pdf'
+import diCert from './assets/DI_certificate.pdf'
 
 function App() {
 
@@ -86,7 +87,7 @@ function App() {
             className='text-2xl font-semibold' 
         >Certificates</h2>
         <ul>
-          <li><a>Developers Institute: Full-Stack Developer</a></li>
+          <li><a href={diCert}>Developers Institute: Full-Stack Developer</a></li>
           <li><a href={otusCert}>Otus: Scala developer</a></li>
         </ul>
       </section>
