@@ -3,12 +3,13 @@
 export const Main = () => {
   return (
     <div
-        id="about" 
-        className="bg-slate-700 text-slate-200 p-5"
+        className="bg-slate-700 text-slate-200 p-5 font-spaceGrotesk"
     >
         <h1 
             className="font-spaceGrotesk text-7xl font-bold"
         >Vitalii Masterov</h1>
+
+        <h4 className="text-2xl">Full Stack Developer</h4>
 
         <p
             className='mt-16 font-spaceGrotesk text-2xl'

@@ -16,7 +16,7 @@ export const Header = () => {
                 </a>
             </li>
             <li className='ml-6'>
-                <a href="linkedin.com">
+                <a href="https://www.linkedin.com/in/vitalii-masterov-412533233">
                     <img 
                         src={inLogo} 
                         className='h-7 brightness-200' 
