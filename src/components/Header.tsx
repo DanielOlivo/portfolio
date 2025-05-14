@@ -1,4 +1,3 @@
-import githubLogo from '../assets/GitHub_Logo.png'
 import githubLogoWhite from '../assets/GitHub_Logo_White.png'
 import inLogo from '../assets/LI-Logo.png'
 
@@ -6,10 +5,6 @@ const email = 'vit.masterov@gmail.com'
 
 export const Header = () => {
 
-    // const handleMail = (e: React.MouseEvent) => {
-    //     e.preventDefault()
-    //     window.location.href = `mailto:${email}`
-    // }
 
   return (
         <div className='flex flex-row justify-end items-center w-full h-8 bg-slate-700 text-slate-200 font-spaceGrotesk'>
