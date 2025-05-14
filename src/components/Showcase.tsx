@@ -3,7 +3,7 @@ export const Showcase = () => {
     <div
         className='text-slate-200 font-spaceGrotesk' 
     >
-        <h2 className='text-4xl font-medium'>Projects</h2>
+        <h2 className='text-5xl font-medium'>Projects</h2>
 
         <h3
             className='text-xl font-medium mt-6' 

@@ -60,7 +60,7 @@ export const Skills = () => {
         p-4 
         "
     >
-        <h1 className='text-6xl text-bold'>Skills</h1>
+        <h1 className='text-5xl text-bold'>Skills</h1>
         <h2 className="mt-5 text-3xl font-medium">Backend</h2>
             <ol className="grid grid-cols-3 gap-2 ml-3">
                 {backend.map(s => <SkillItem {...s} /> )}

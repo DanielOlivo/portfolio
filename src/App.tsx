@@ -17,14 +17,14 @@ function App() {
   }
 
   return (
-    <div className='flex flex-col bg-slate-700 no-scrollbar'>
+    <div className='w-full flex flex-col bg-slate-700 no-scrollbar'>
 
       <div className='w-full fixed top-0 left-0 z-50'>
         <Header />
       </div>
 
       <div
-        className="flex flex-row justify-start px-14 items-center h-full w-full mt-4" 
+        className="flex flex-row justify-start px-14 items-center h-full w-full" 
       >
 
         <SideMenu callback={handleScroll} />
