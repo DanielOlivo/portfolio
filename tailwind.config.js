@@ -5,7 +5,12 @@ export default {
     "./src/**/*.{ts,tsx}"
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        tinos: ['Tinos', 'serif'],
+        spaceGrotesk: ['Space Grotesk', 'serif']
+      }
+    },
   },
   plugins: [],
 }
