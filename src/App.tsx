@@ -1,6 +1,4 @@
 import { Header } from './components/Header'
-import otusCert from './assets/otus_cert.pdf'
-import diCert from './assets/DI_certificate.pdf'
 import { SideMenu } from './components/SideMenu'
 import { Main } from './components/Main'
 import { Skills } from './components/Skills'
